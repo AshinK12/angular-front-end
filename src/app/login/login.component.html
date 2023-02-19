@@ -1,0 +1,39 @@
+<div class="outer">
+    <div class="container">
+        <div class="row">
+            <div class="offset">
+            <div class="panel border bg-white">
+                <div class="panel-heading">
+                    <h3 class="pt-3 font-weight-bold">Login</h3>
+                    <fa-icon [icon]="faLock" class="fa-3x"></fa-icon>
+                </div>
+                <div class="panel-body">
+                    <form >
+                        <div class="form-group">
+                            <div class="input-field">
+                            <span class="fa fa-user"></span>
+                            <input type="text" placeholder="Username">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-field1">
+                            <span class="fa fa-lock"></span>
+                            <input [type]="type" placeholder="password">
+                            <Span (click)="HideShowPass()" class="fa fa-eye-slash"></Span>
+                            </div>
+                        </div>
+                        <div class="card-footer text-right">
+                           <small><a routerLink="../forgot-password">Forget Password</a></small> 
+                        
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block mt-4 w-100">login</button>
+                     <div class="text-center pt-4 text-muted">don't have account? <a id="forget " routerLink="/signup">signup</a>
+                     </div>
+                    </form>
+                   
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
