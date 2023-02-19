@@ -75,3 +75,11 @@ input[type='password']{
     border: radius 50%;
     position:relative
 }
+.header
+{
+    font-style:normal;
+    font-size: large;
+    text-align: center;
+    font-weight: 100;
+
+}
