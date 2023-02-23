@@ -3,11 +3,12 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <span class="title">   {{title}}   </span>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link fs-5 fw-bolder" href="#">Home</a>
-           
+        
           </li>
           <li class="nav-item">
             <a class="nav-link fs-5 fw-bolder" href="#">About</a>
@@ -20,7 +21,7 @@
           </li>
   
           <li class="nav-item">
-            <a class="nav-link fs-5 fw-bolder" href="#">contact</a>
+            <a class="nav-link fs-5 fw-bolder" routerlink="/contact" href="#">contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link fs-5 fw-bolder" href="#">Login</a>
@@ -28,6 +29,10 @@
           <li class="nav-item">
             <a class="nav-link fs-5 fw-bolder"routerLink="/signup" href="#">signup</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 fw-bolder"routerLink="/admin-dashboard" href="#">Admin-dashboard</a>
+          </li>
+          
   
         </ul>
         <form class="d-flex ">

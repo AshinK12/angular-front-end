@@ -10,6 +10,10 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
 import { NotFoundComponent } from './not-found/not-found.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
+import { AboutComponent } from './about/about.component';
+import { CoachComponent } from './coach/coach.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -19,7 +23,11 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     SignupComponent,
     ForgotPasswordComponent,
     NotFoundComponent,
-    MeanComponent
+    MeanComponent,
+    AdminDashboardComponent,
+    AboutComponent,
+    CoachComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

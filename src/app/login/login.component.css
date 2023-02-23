@@ -80,6 +80,9 @@ input[type='password']{
     font-style:normal;
     font-size: large;
     text-align: center;
-    font-weight: 100;
+    font-weight: bold;
+    background-color: #434343;
+    background-image:url("/assets/crick.jpg");
+
 
 }

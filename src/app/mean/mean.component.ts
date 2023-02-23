@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class MeanComponent {
 
+  title="Your 360° Cricket platform";
 }
