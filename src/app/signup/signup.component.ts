@@ -10,6 +10,8 @@ export class SignupComponent {
   type:string = "password";
 isText:boolean=false
  eyeIcon:string="fa-eye-slash";
+ title="Your 360° Cricket platform";
+
  constructor() {}
  ngOninit() : void {
 }
