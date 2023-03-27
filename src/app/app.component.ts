@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { AppServiceService } from './app-service.service';
+import { Component} from '@angular/core';
+
 
 
 @Component({
@@ -10,32 +10,10 @@ import { AppServiceService } from './app-service.service';
 
 
 })
-export class AppComponent implements OnInit
+export class AppComponent
 {
-
- public title="Your 360° Cricket platform";
-
- constructor(private service:AppServiceService)
- {
-
- }
-
- ngOnInit(): void {
-
- }
- getDataFromAPI()
- {
-  this.service.getData().subscribe((Response)=> {
-    console.log('response from api',Response)
-  },(error) => {
-    console.log('error',error)
-  })
-
-
-
- }
+  title(title: any) {
+    throw new Error('Method not implemented.');
+  }
 }
-
-
-
 

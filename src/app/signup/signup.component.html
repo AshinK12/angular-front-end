@@ -1,46 +1,60 @@
 <div class="outer">
-    <div class="container">
-        <div class="row">
-            <div class="offset">
-            <div class="panel border bg-white">
-                <div class="panel-heading">
-                    <img src="/assets/main (3).jpg">
-                  
-                    <h3 class="pt-3 font-weight-bold">Signup</h3>
-                </div>
-                <div class="panel-body">
-                    <form >
-                        <div class="form-group">
-                            <div class="input-field">
-                            <span class="fa fa-user"></span>
-                            <input type="text" placeholder="Firstname">
-                            </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <div class="input-field1">
-                            <span class="fa fa-user"></span>
-                            <input [type]="type" placeholder="Lastname">
-                            <Span (click)="HideShowPass()" class="fa fa-eye-slash"></Span>
-                            </div>
-                        </div>
-                        <div class="input-field">
-                            <span class="fa fa-envelope-o"></span>
-                            <input type="email" placeholder="Email">
-                            </div>
-                            <div class="input-field">
-                                <span class="fa fa-calendar"></span>
-                                <input type="date" placeholder="DoB">
-                                </div>
-                      
-                        <button type="submit" class="btn btn-primary btn-block mt-4 w-100">signup</button>
-                     <div class="text-center pt-4 text-muted">Already  have account? <a id="forget " routerLink="/login">Login</a>
-                     </div>
-                    </form>
-                   
-                </div>
-            </div>
-            </div>
-        </div>
+  <div class="container">
+      <div class="row">
+          <div class="offset">
+          <div class="panel border bg-white">
+              <div class="panel-heading">
+
+                  <h3 class="pt-3 font-weight-bold">Signup</h3>
+                  <img src="/assets/ab.jpg">
+
+
+<form [formGroup]="signupForm " (ngSubmit)="signup()">
+
+              <div class="panel-body">
+
+                      <div class="form-group">
+                          <div class="input-field">
+                          <span class="fa fa-user"></span>
+                                Username: <input type="text" formControlName="uname">
+                          </div>
+                      </div>
+                      <div class="input-field">
+                        <span class="fa fa-lock"></span>
+
+
+
+                          Password:<input type="password" formControlName="password">
+                          </div>
+
+
+                      <div class="input-field">
+                        <span class="fa fa-envelope-o"></span>
+                          Email:<input type="text" formControlName="email">
+                          </div>
+
+                      <button type="submit" class="btn btn-primary btn-block mt-4 w-100" (click)="signup()"  routerLink="/login">signup</button>
+
+
+                   </div>
+                  </form>
+
+
+          </div>
+      </div>
     </div>
+  </div>
 </div>
+<div class="text-center pt-4 text-muted">Already  have account? <a id="forget " routerLink="/login">Login</a>
+
+
+
+
+
+
+
+
+
+
+
+

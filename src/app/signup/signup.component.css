@@ -1,9 +1,9 @@
 .outer{
     height:100vh;
-    background:pink no-repeat;
+    background:black
 }
 .panel-heading {
-    text-align:center; 
+    text-align:center;
     margin-bottom:10px;
 }
 .forget{
@@ -51,7 +51,7 @@ a:hover{
     border:1px solid #ddd;
     color:#434343;
 
-   
+
 
 }
 input[type='text'],

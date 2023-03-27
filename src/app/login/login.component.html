@@ -2,53 +2,47 @@
     <head>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     </head>
+    <html>
+      <head>
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      </head>
+
+<form>
+
+
+  <div class="outer">
+      <div class="container">
+          <div class="row">
+              <div class="offset">
+              <div class="panel border bg-grey">
+                  <div class="header h-100"></div>
+                  <div class="panel-heading">
+                      <img src="/assets/pq.jpg" width="500" height="300">
+                      <h3 class="pt-3 font-weight-bold"></h3>
+
+                  </div>
+                  <div class="panel-body">
+          Username:  <input type="text" [(ngModel)]="Username">
+           <span class="fa fa-user"></span>
+
+      <div>
+
+
+        <span class="fa fa-lock"></span>
+          Password: <input type="password" [(ngModel)]="Password" autocomplete="current-password" required>
+      <button type="submitloginForm.invalid"  routerLink="/mean">login</button>
+
+      <div class="card-footer text-right">
+
+
+        <small><a routerLink="../forgot-password">Forget Password</a></small>
+     </div>
+  <div class="text-center pt-4 text-muted">don't have account? <a id="forget " routerLink="/signup">signup</a>
+  </div>
+      </div>
 
 
 
-    
-<div class="outer">
-    <div class="container">
-        <div class="row">
-            <div class="offset">
-                <span class="title">  {{title}}</span>
-            <div class="panel border bg-grey">
-                <div class="header h-100">ONLINE CRICKET COACHING</div>
-                <div class="panel-heading">
-                    <img src="/assets/mean.jpeg" width="500" height="300">
-                    <h3 class="pt-3 font-weight-bold">Login</h3>
-                    <fa-icon [icon]="faLock" class="fa-3x"></fa-icon>
-                </div>
-                <div class="panel-body">
-                    <form >
-                        <div class="form-group">
-                            <div class="input-field">
-                            <span class="fa fa-user"></span>
-                            <input type="text" formControl="username" placeholder="username">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="input-field1">
-                            <span class="fa fa-lock"></span>
-                            <input [type]="type"  formControl = "password" placeholder="password">
-                           
-                            </div>
-                        </div>
-                        <div class="card-footer text-right">
-                           <small><a routerLink="../forgot-password">Forget Password</a></small> 
-                        
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block mt-4 w-100">login</button>
-                     <div class="text-center pt-4 text-muted">don't have account? <a id="forget " routerLink="/signup">signup</a>
-                     </div>
-                    </form>
-                   <p class="ab">Why Cricket Coach Online Courses.</p>
 
-                    <p  class="bc">Complete guidance of how to start playing Cricket with the basics from holding the bat, stance and later on going ahead to the Next level. Can attend 2 LIVE Online Sessions FREE in First 1 Month</p>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>
-</div>
-<app-footer></app-footer>
-</html>
+
+
