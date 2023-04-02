@@ -7,13 +7,15 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { SignupComponents } from './signup/signup.component';
 import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
 import { CoursesComponent } from './courses/courses.component';
+import { CoachesComponent } from './coaches/coaches.component';
+
 
 
 const routes: Routes = [{path:'login', component:LoginComponent},
 {path:'', component:SignupComponents},
 {path:'mean',component: MeanComponent},
 {path:'forgot-password',component:ForgotPasswordComponent},
-{path:'not-found', component:NotFoundComponent},{path:"admin-dashboard", component:AdminDashboardComponent},{path :'courses',component:CoursesComponent},{path:'',redirectTo:'/login',pathMatch:'full'}];
+{path:'not-found', component:NotFoundComponent},{path:"admin-dashboard", component:AdminDashboardComponent},{path :'courses',component:CoursesComponent},{path:'coaches',component:CoachesComponent},{path:'',redirectTo:'/login',pathMatch:'full'}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

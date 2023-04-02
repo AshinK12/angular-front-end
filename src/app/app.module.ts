@@ -15,7 +15,8 @@ import { FormsModule } from '@angular/forms';
 import { CoursesComponent } from './courses/courses.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
-import { CoachesComponent } from './coaches/coaches.component'
+import { CoachesComponent } from './coaches/coaches.component';
+
 
 
 
@@ -34,6 +35,7 @@ import { CoachesComponent } from './coaches/coaches.component'
     AboutComponent,
     CoursesComponent,
     CoachesComponent,
+
 
   ],
   imports: [

@@ -6,6 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./coaches.component.css']
 })
 export class CoachesComponent {
-fd: any;
 
 }

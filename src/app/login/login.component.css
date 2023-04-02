@@ -1,94 +1,218 @@
 .outer{
-    height:100vh;
-    background:#434343 no-repeat;
+  height:100vh;
+  
+  background-image: url("/assets/chess-playing-hand.jpeg");
+  /* background-image: url("/assets/download.jpg"); */
 }
 .panel-heading {
-    text-align:center;
-    margin-bottom:10px;
+  text-align:center;
+  margin-bottom:10px;
 }
+
+.panel-body{
+  color: white;
+}
+
 .forget{
-    min-width: 100px;
-    margin-left: auto;
-    text-decoration: none;
-    cursor:pointer;
+  min-width: 100px;
+  margin-left: auto;
+  text-decoration: none;
+  cursor:pointer;
 }
 a:hover{
-    text-decoration: none;
+  text-decoration: none;
 }
 .form-inline{
-    padding-left: 10px;
-    margin:0;
-    cursor:pointer;
+  padding-left: 10px;
+  margin:0;
+  cursor:pointer;
 }
 .btn{
-    margin-top:30px;
-    border-radius:  15px;
+  margin-top:30px;
+  border-radius:  15px;
 }
 .panel{
-    min-height: 380px;
-    box-shadow: 20px 20px 80px rgb(218,218,218 green, blue);
-    border-radius: 12px;
-    margin-top: 100px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  min-height: 380px;
+  box-shadow: 20px 20px 80px rgb(218,218,218 green, blue);
+  border-radius: 12px;
+  margin-top: 100px;
 }
 .input-field{
-    border:1px;
-    border-radius:5px;
-    padding: 5px;
-    display:flex;
-    align-items:center;
-    cursor: pointer;
-    border:1px solid #ddd;
-    color:#434343;
+  border:1px;
+  border-radius:5px;
+  padding: 5px;
+  display:flex;
+  align-items:center;
+  cursor: pointer;
+  border:1px solid #ddd;
+  color:#434343;
 
 }
 .input-field1{
-    border:1px solid;
-    border-radius:5px;
-    padding: 5px;
-    display:flex;
-    align-items:center;
-    cursor: pointer;
-    border:1px solid #ddd;
-    color:#434343;
+  border:1px solid;
+  border-radius:5px;
+  padding: 5px;
+  display:flex;
+  align-items:center;
+  cursor: pointer;
+  border:1px solid #ddd;
+  color:#434343;
 
 
 
 }
 input[type='text'],
 input[type='password']{
-    border:none;
-    outline:none;
-    box-shadow: none;
-    width:100%;
+  border:none;
+  outline:none;
+  box-shadow: none;
+  width:100%;
 }
 .fa-fa-user{
-    border:none;
-    outline:none;
-    box-shadow: none;
+  border:none;
+  outline:none;
+  box-shadow: none;
 
 }
 .img
 {
-    width:40px;
-    height:40px;
-    object-fit:cover;
-    border: radius 50%;
-    position:relative
+  width:40px;
+  height:40px;
+  object-fit:cover;
+  border: radius 50%;
+  position:relative
 }
 .header
 {
-    font-style:normal;
-    font-size: large;
-    text-align: center;
-    font-weight: bold;
-    background-color: #555;
-    background-image:url("/assets/crick.jpg");
+  font-style:normal;
+  font-size: large;
+  text-align: center;
+  font-weight: bold;
+  background-color: #555;
+  background-image:url("/assets/crick.jpg");
 
 
 }
 .ab
 {
-    background-color:yellowgreen;
-    font-family: #444;
+  background-color:yellowgreen;
+  font-family: yellow;
 
 }
+
+.pt-3{
+  color: aliceblue;
+}
+
+
+.outer{
+  height:100vh;
+  background:black;
+  background-image: url("/assets/chess-playing-hand.jpeg");
+  /* background-image: url("/assets/download.jpg"); */
+}
+.panel-heading {
+  text-align:center;
+  margin-bottom:10px;
+}
+
+.panel-body{
+  color: white;
+}
+
+.forget{
+  min-width: 100px;
+  margin-left: auto;
+  text-decoration: none;
+  cursor:pointer;
+}
+a:hover{
+  text-decoration: none;
+}
+.form-inline{
+  padding-left: 10px;
+  margin:0;
+  cursor:pointer;
+}
+.btn{
+  margin-top:30px;
+  border-radius:  15px;
+}
+.panel{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  min-height: 380px;
+  box-shadow: 20px 20px 80px rgb(218,218,218 green, blue);
+  border-radius: 12px;
+  margin-top: 100px;
+}
+.input-field{
+  border:1px;
+  border-radius:5px;
+  padding: 5px;
+  display:flex;
+  align-items:center;
+  cursor: pointer;
+  border:1px solid #ddd;
+  color:#434343;
+
+}
+.input-field1{
+  border:1px solid;
+  border-radius:5px;
+  padding: 5px;
+  display:flex;
+  align-items:center;
+  cursor: pointer;
+  border:1px solid #ddd;
+  color:#434343;
+
+
+
+}
+input[type='text'],
+input[type='password']{
+  border:none;
+  outline:none;
+  box-shadow: none;
+  width:100%;
+}
+.fa-fa-user{
+  border:none;
+  outline:none;
+  box-shadow: none;
+
+}
+.img
+{
+  width:40px;
+  height:40px;
+  object-fit:cover;
+  border: radius 50%;
+  position:relative
+}
+.header
+{
+  font-style:normal;
+  font-size: large;
+  text-align: center;
+  font-weight: bold;
+  background-color: #555;
+  background-image:url("/assets/crick.jpg");
+
+
+}
+.ab
+{
+  background-color:yellowgreen;
+  font-family: yellow;
+
+}
+
+.pt-3{
+  color: aliceblue;
+}
+
+
