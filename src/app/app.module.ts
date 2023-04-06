@@ -16,6 +16,8 @@ import { CoursesComponent } from './courses/courses.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import { CoachesComponent } from './coaches/coaches.component';
+import { BookingComponent } from './booking/booking.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -35,6 +37,8 @@ import { CoachesComponent } from './coaches/coaches.component';
     AboutComponent,
     CoursesComponent,
     CoachesComponent,
+    BookingComponent,
+    ContactComponent,
 
 
   ],

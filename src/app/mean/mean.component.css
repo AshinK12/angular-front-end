@@ -1,19 +1,11 @@
-.title{
-  font-size: larger;
-  font-weight: 100;
-  text-align: left;
-  font-family: sans-serif;
-  background-color: bisque;
+
+.navbar-light .navbar-nav .nav-link
+{
+    color: var(--secondary-color);
+}
+.navbar-light .navbar-nav .nav-link.active-link
+{
+    color: var(--primary-color);
+    text-decoration: underline;
 }
 
-.ab
-{
-background-color: black;
-background-size:100% ;
-background-image: linear-gradient(border-radius);
-}
-/* .outer
-{
-background-image: url("/assets/ab.jpg");
-
-} */
